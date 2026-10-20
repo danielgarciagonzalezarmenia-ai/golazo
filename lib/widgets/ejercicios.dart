@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../core/app_colors.dart';
+import '../models/question.dart';
 import 'chispa_widget.dart';
 
 abstract class EjercicioBase extends StatefulWidget {
@@ -760,4 +761,5 @@ Widget ejercicioPorTipo(QuestionType type, {
         respondido: respondido,
       );
   }
+  throw UnsupportedError('Tipo de ejercicio no implementado: $type');
 }

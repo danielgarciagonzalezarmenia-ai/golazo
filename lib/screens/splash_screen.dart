@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 
 import '../core/app_colors.dart';
 import '../core/app_constants.dart';
+import '../core/app_theme.dart';
 import '../widgets/widgets.dart';
 
 class SplashScreen extends StatefulWidget {

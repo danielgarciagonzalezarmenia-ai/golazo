@@ -1,5 +1,6 @@
 import '../core/app_constants.dart';
 import '../core/storage.dart';
+import '../models/question.dart';
 import '../models/user_progress.dart';
 
 class ProgressService {
