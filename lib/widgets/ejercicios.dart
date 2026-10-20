@@ -1,11 +1,8 @@
 import 'dart:async';
-import 'dart:math';
 
 import 'package:flutter/material.dart';
 
 import '../core/app_colors.dart';
-import '../core/app_theme.dart';
-import '../models/question.dart';
 import 'chispa_widget.dart';
 
 abstract class EjercicioBase extends StatefulWidget {

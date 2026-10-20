@@ -4,9 +4,7 @@ import 'package:flutter/material.dart';
 import '../core/app_colors.dart';
 import '../core/app_theme.dart';
 import '../models/inventory.dart';
-import '../models/medalla.dart';
 import '../services/services.dart';
-import '../widgets/widgets.dart';
 
 class VestuarioScreen extends StatefulWidget {
   const VestuarioScreen({super.key});

@@ -5,7 +5,6 @@ import '../core/app_colors.dart';
 import '../core/app_theme.dart';
 import '../models/medalla.dart';
 import '../services/services.dart';
-import '../widgets/widgets.dart';
 
 class LogrosScreen extends StatefulWidget {
   const LogrosScreen({super.key});

@@ -1,13 +1,9 @@
 import 'dart:async';
-import 'dart:math';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../core/app_colors.dart';
 import '../core/app_theme.dart';
-import '../core/app_constants.dart';
-import '../models/question.dart';
 import '../services/services.dart';
 import '../screens/lesson_screen.dart';
 import '../widgets/widgets.dart';

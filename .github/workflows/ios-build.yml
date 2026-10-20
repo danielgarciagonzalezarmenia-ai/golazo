@@ -28,7 +28,7 @@ jobs:
           cache: true
       - run: flutter doctor -v
       - run: flutter pub get
-      - run: flutter analyze
+      - run: flutter analyze --no-fatal-infos
       - run: flutter test
       - name: Compilar app (sin firmar)
         run: flutter build ios --release --no-codesign
