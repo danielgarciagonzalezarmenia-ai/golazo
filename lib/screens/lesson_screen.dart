@@ -2,11 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../core/app_colors.dart';
-import '../core/app_theme.dart';
 import '../core/app_constants.dart';
+import '../core/app_theme.dart';
 import '../models/question.dart';
 import '../services/services.dart';
-import '../widgets/ejercicios.dart';
 import '../widgets/widgets.dart';
 
 class LessonScreen extends StatefulWidget {
@@ -54,7 +53,7 @@ class _LessonScreenState extends State<LessonScreen> {
     return CupertinoPageScaffold(
       backgroundColor: GColors.fondo(context),
       navigationBar: CupertinoNavigationBar(
-        backgroundColor: GColors.fondo(context).withOpacity(0.9),
+        backgroundColor: GColors.fondo(context).withValues(alpha: 0.9),
         border: null,
         leading: GestureDetector(
           onTap: _salir,
@@ -201,7 +200,7 @@ class _LessonScreenState extends State<LessonScreen> {
       margin: const EdgeInsets.all(16),
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: color.withOpacity(0.15),
+        color: color.withValues(alpha: 0.15),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: color),
       ),

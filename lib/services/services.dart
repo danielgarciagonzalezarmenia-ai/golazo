@@ -1,5 +1,3 @@
-library golazo.services;
-
 export 'content_service.dart';
 export 'progress_service.dart';
 export 'inventory_service.dart';

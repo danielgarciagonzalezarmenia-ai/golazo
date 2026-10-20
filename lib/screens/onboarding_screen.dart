@@ -50,7 +50,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     borderRadius: BorderRadius.circular(8),
                     child: LinearProgressIndicator(
                       value: (_paso + 1) / 5,
-                      backgroundColor: GColors.textoSecundario(context).withOpacity(0.2),
+                      backgroundColor: GColors.textoSecundario(context).withValues(alpha: 0.2),
                       valueColor: AlwaysStoppedAnimation(GColors.primario(context)),
                       minHeight: 6,
                     ),
@@ -155,7 +155,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 texto: e['label'] as String,
                 color: _nivel == (e['nivel'] as int)
                     ? GColors.primario(context)
-                    : GColors.primario(context).withOpacity(0.5),
+                    : GColors.primario(context).withValues(alpha: 0.5),
                 onPressed: () => setState(() => _nivel = e['nivel'] as int),
                 ancho: 260,
               ),
@@ -189,7 +189,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 texto: e['label'] as String,
                 color: _meta == (e['meta'] as int)
                     ? GColors.primario(context)
-                    : GColors.primario(context).withOpacity(0.5),
+                    : GColors.primario(context).withValues(alpha: 0.5),
                 onPressed: () => setState(() => _meta = e['meta'] as int),
                 ancho: 260,
               ),

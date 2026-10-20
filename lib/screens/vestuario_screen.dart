@@ -22,7 +22,7 @@ class _VestuarioScreenState extends State<VestuarioScreen> {
     return CupertinoPageScaffold(
       backgroundColor: GColors.fondo(context),
       navigationBar: CupertinoNavigationBar(
-        backgroundColor: GColors.fondo(context).withOpacity(0.9),
+        backgroundColor: GColors.fondo(context).withValues(alpha: 0.9),
         border: null,
         middle: Text('Vestuario', style: GTheme.cardTitleStyle(context)),
       ),

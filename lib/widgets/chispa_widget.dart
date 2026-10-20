@@ -119,11 +119,11 @@ class _Boton3DState extends State<Boton3D> {
         width: widget.ancho,
         height: widget.alto,
         decoration: BoxDecoration(
-          color: widget.activo ? color : color.withOpacity(0.5),
+          color: widget.activo ? color : color.withValues(alpha: 0.5),
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
-              color: widget.activo ? colorOscuro.withOpacity(0.9) : Colors.black12,
+              color: widget.activo ? colorOscuro.withValues(alpha: 0.9) : Colors.black12,
               offset: Offset(0, _presionado ? 1 : 4),
               blurRadius: 0,
               spreadRadius: 0,
@@ -146,11 +146,10 @@ class _Boton3DState extends State<Boton3D> {
   }
 
   Color _tonoOscuro(Color c) {
-    return Color.fromARGB(
-      c.alpha,
-      (c.red * 0.7).round(),
-      (c.green * 0.7).round(),
-      (c.blue * 0.7).round(),
+    return c.withValues(
+      red: (c.r * 0.7),
+      green: (c.g * 0.7),
+      blue: (c.b * 0.7),
     );
   }
 }
@@ -179,7 +178,7 @@ class ChipPestana extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         decoration: BoxDecoration(
           color: activo
-              ? GColors.primario(context).withOpacity(0.15)
+              ? GColors.primario(context).withValues(alpha: 0.15)
               : Colors.transparent,
           borderRadius: BorderRadius.circular(12),
         ),
@@ -237,13 +236,13 @@ class _TarjetaOpcionState extends State<TarjetaOpcion> {
     Color colorBorde;
 
     if (widget.correcta) {
-      colorFondo = GColors.correcto(context).withOpacity(0.15);
+      colorFondo = GColors.correcto(context).withValues(alpha: 0.15);
       colorBorde = GColors.correcto(context);
     } else if (widget.incorrecta) {
-      colorFondo = GColors.error(context).withOpacity(0.15);
+      colorFondo = GColors.error(context).withValues(alpha: 0.15);
       colorBorde = GColors.error(context);
     } else if (widget.seleccionada) {
-      colorFondo = GColors.primario(context).withOpacity(0.1);
+      colorFondo = GColors.primario(context).withValues(alpha: 0.1);
       colorBorde = GColors.primario(context);
     } else {
       colorFondo = GColors.superficie(context);
@@ -266,7 +265,7 @@ class _TarjetaOpcionState extends State<TarjetaOpcion> {
           border: Border.all(color: colorBorde, width: 3),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.08),
+              color: Colors.black.withValues(alpha: 0.08),
               offset: const Offset(0, 3),
               blurRadius: 6,
             ),

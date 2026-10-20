@@ -5,13 +5,11 @@ import '../core/app_colors.dart';
 import '../core/app_constants.dart';
 import '../services/services.dart';
 import '../screens/camino_screen.dart';
-import '../screens/lesson_screen.dart';
 import '../screens/logros_screen.dart';
 import '../screens/onboarding_screen.dart';
 import '../screens/perfil_screen.dart';
 import '../screens/splash_screen.dart';
 import '../screens/vestuario_screen.dart';
-import '../widgets/widgets.dart';
 
 class GApp extends StatefulWidget {
   const GApp({super.key});

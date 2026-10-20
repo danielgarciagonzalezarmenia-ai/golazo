@@ -25,7 +25,7 @@ class _PerfilScreenState extends State<PerfilScreen> {
     return CupertinoPageScaffold(
       backgroundColor: GColors.fondo(context),
       navigationBar: CupertinoNavigationBar(
-        backgroundColor: GColors.fondo(context).withOpacity(0.9),
+        backgroundColor: GColors.fondo(context).withValues(alpha: 0.9),
         border: null,
         middle: Text('Perfil', style: GTheme.cardTitleStyle(context)),
       ),

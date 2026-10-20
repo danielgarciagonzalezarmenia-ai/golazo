@@ -36,7 +36,7 @@ class MultipleChoiceExercise extends EjercicioBase {
 
 class _MultipleChoiceState extends State<EjercicioBase> {
   int? _seleccion;
-  bool _mostrado = false;
+  final bool _mostrado = false;
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +48,7 @@ class _MultipleChoiceState extends State<EjercicioBase> {
         Color? incorrectaColor;
         if (respondido) {
           correcta = i == widget.pregunta.answer;
-          incorrectaColor = seleccionado && !correcta! ? GColors.error(context) : null;
+          incorrectaColor = seleccionado && correcta == false ? GColors.error(context) : null;
         }
         return TarjetaOpcion(
           texto: widget.pregunta.options[i],
@@ -171,7 +171,6 @@ class _CampoTacticoPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final cx = size.width / 2;
     final cy = size.height / 2;
-    final r = size.width * 0.35;
 
     // Césped
     final cespado = Paint()..color = const Color(0xFF1FB155);
@@ -422,7 +421,6 @@ class _TacticoPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final cx = size.width / 2;
     final cy = size.height / 2;
-    final r = size.width * 0.3;
 
     final cespado = Paint()..color = const Color(0xFF1FB155);
     canvas.drawRect(Rect.fromLTWH(0, 0, size.width, size.height), cespado);
@@ -453,11 +451,11 @@ class _TacticoPainter extends CustomPainter {
     ];
     for (final p in posAzul) {
       canvas.drawCircle(p, 16, azul);
-      canvas.drawCircle(p, 16, Paint()..color = Colors.white.withOpacity(0.3)..style = PaintingStyle.stroke..strokeWidth = 2);
+      canvas.drawCircle(p, 16, Paint()..color = Colors.white.withValues(alpha: 0.3)..style = PaintingStyle.stroke..strokeWidth = 2);
     }
     for (final p in posRojo) {
       canvas.drawCircle(p, 16, rojo);
-      canvas.drawCircle(p, 16, Paint()..color = Colors.white.withOpacity(0.3)..style = PaintingStyle.stroke..strokeWidth = 2);
+      canvas.drawCircle(p, 16, Paint()..color = Colors.white.withValues(alpha: 0.3)..style = PaintingStyle.stroke..strokeWidth = 2);
     }
 
     // Flecha
@@ -761,5 +759,4 @@ Widget ejercicioPorTipo(QuestionType type, {
         respondido: respondido,
       );
   }
-  throw UnsupportedError('Tipo de ejercicio no implementado: $type');
 }

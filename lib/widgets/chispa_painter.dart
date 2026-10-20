@@ -23,7 +23,7 @@ class ChispaPainter extends CustomPainter {
 
     // Sombra
     final sombra = Paint()
-      ..color = Colors.black.withOpacity(0.15)
+      ..color = Colors.black.withValues(alpha: 0.15)
       ..style = PaintingStyle.fill;
     canvas.drawOval(
       Rect.fromCenter(
@@ -123,7 +123,7 @@ class ChispaPainter extends CustomPainter {
       Canvas canvas, Offset centro, double radio, ChispaEstado estado) {
     final blanco = Paint()..color = Colors.white;
     final iris = Paint()..color = const Color(0xFF0B1F3A);
-    final brillo = Paint()..color = Colors.white.withOpacity(0.9);
+    final brillo = Paint()..color = Colors.white.withValues(alpha: 0.9);
 
     if (estado == ChispaEstado.dormido) {
       final cerrado = Paint()

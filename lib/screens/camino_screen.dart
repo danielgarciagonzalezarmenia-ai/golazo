@@ -26,11 +26,12 @@ class _CaminoScreenState extends State<CaminoScreen> {
 
   Future<void> _abrirLeccion(String leccionId, int nivel) async {
     final servicio = ContentService.instance;
+    final navigator = Navigator.of(context);
     await servicio.cargarPreguntas();
     final todas = servicio.preguntasDeNivel(nivel);
     if (todas.isEmpty) return;
     final seleccion = todas.take(8).toList();
-    await Navigator.of(context).push(
+    await navigator.push(
       CupertinoPageRoute(
         builder: (_) => LessonScreen(leccionId: leccionId, preguntas: seleccion),
       ),
@@ -42,7 +43,7 @@ class _CaminoScreenState extends State<CaminoScreen> {
     return CupertinoPageScaffold(
       backgroundColor: GColors.fondo(context),
       navigationBar: CupertinoNavigationBar(
-        backgroundColor: GColors.fondo(context).withOpacity(0.9),
+        backgroundColor: GColors.fondo(context).withValues(alpha: 0.9),
         border: null,
         middle: Row(
           mainAxisSize: MainAxisSize.min,
@@ -144,7 +145,7 @@ class UnidadCamino extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: Colors.black12),
         boxShadow: [
-          BoxShadow(color: Colors.black.withOpacity(0.06), offset: const Offset(0, 4), blurRadius: 12),
+          BoxShadow(color: Colors.black.withValues(alpha: 0.06), offset: const Offset(0, 4), blurRadius: 12),
         ],
       ),
       child: Column(
@@ -153,7 +154,7 @@ class UnidadCamino extends StatelessWidget {
             width: double.infinity,
             padding: const EdgeInsets.symmetric(vertical: 14, horizontal: 16),
             decoration: BoxDecoration(
-              color: color.withOpacity(0.12),
+              color: color.withValues(alpha: 0.12),
               borderRadius: const BorderRadius.only(
                 topLeft: Radius.circular(20),
                 topRight: Radius.circular(20),
@@ -234,7 +235,7 @@ class NodoCamino extends StatelessWidget {
           shape: BoxShape.circle,
           boxShadow: [
             BoxShadow(
-              color: color.withOpacity(0.4),
+              color: color.withValues(alpha: 0.4),
               offset: const Offset(0, 4),
               blurRadius: 12,
             ),
