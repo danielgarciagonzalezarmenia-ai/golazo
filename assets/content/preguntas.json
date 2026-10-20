@@ -1,0 +1,652 @@
+[
+  {
+    "id": "potrero_u1_l1_q1",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuántos jugadores tiene cada equipo en la cancha?",
+    "options": ["9", "10", "11", "12"],
+    "answer": 2,
+    "explanation": "Cada equipo juega con 11 jugadores, incluido el portero.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l1_q2",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el objetivo principal del fútbol?",
+    "options": ["Correr más que el rival", "Meter más goles que el equipo contrario", "Tener el balón todo el tiempo", "Hacer faltas"],
+    "answer": 1,
+    "explanation": "Gana el equipo que anote más goles al final del partido.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l1_q3",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuánto dura un partido de fútbol profesional?",
+    "options": ["60 minutos", "80 minutos", "90 minutos", "100 minutos"],
+    "answer": 2,
+    "explanation": "Un partido dura 90 minutos, dividido en dos tiempos de 45 minutos.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l2_q1",
+    "level": 1,
+    "type": "true_false",
+    "question": "El portero puede tocar el balón con las manos fuera del área.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 1,
+    "explanation": "El portero solo puede usar las manos dentro de su propio área penal.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l2_q2",
+    "level": 1,
+    "type": "true_false",
+    "question": "Un gol vale un punto.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 0,
+    "explanation": "Cada gol anotado suma un punto al marcador.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l2_q3",
+    "level": 1,
+    "type": "true_false",
+    "question": "Se puede marcar gol directamente desde el saque de inicio.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 0,
+    "explanation": "Sí, el balón puede entrar directamente en la portería rival desde el saque inicial.",
+    "difficulty": 2
+  },
+  {
+    "id": "potrero_u1_l3_q1",
+    "level": 1,
+    "type": "field_position",
+    "question": "¿Dónde juega el portero en el campo?",
+    "options": ["Arco", "Centro", "Banda", "Área rival"],
+    "answer": 0,
+    "explanation": "El portero defiende el arco y es el único que puede usar las manos en su área.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l3_q2",
+    "level": 1,
+    "type": "field_position",
+    "question": "¿Dónde se ubica el lateral derecho?",
+    "options": ["Banda derecha", "Banda izquierda", "Centro", "Arco"],
+    "answer": 0,
+    "explanation": "El lateral derecho juega en la banda derecha de la defensa.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l4_q1",
+    "level": 1,
+    "type": "order_play",
+    "question": "Ordena el reinicio del juego tras un gol:",
+    "options": ["El equipo que recibió el gol saca desde el centro", "El árbitro da el silbato", "Los jugadores se colocan en su campo", "El balón se coloca en el punto de saque"],
+    "answer": 0,
+    "explanation": "Tras un gol, reinicia el juego el equipo encajador desde el punto central.",
+    "difficulty": 2
+  },
+  {
+    "id": "potrero_u1_l4_q2",
+    "level": 1,
+    "type": "order_play",
+    "question": "Ordena las fases de un saque de banda:",
+    "options": ["El balón sale por la banda", "El jugador lo retoma con ambas manos", "Lanza el balón de vuelta al campo", "Ambos pies dentro o sobre la línea de banda"],
+    "answer": 0,
+    "explanation": "Primero sale el balón, luego un jugador lo retoma y lo lanza con ambas manos desde la banda.",
+    "difficulty": 2
+  },
+  {
+    "id": "potrero_u1_l5_q1",
+    "level": 1,
+    "type": "match_pairs",
+    "question": "Une cada término con su definición:",
+    "options": ["Gol", "Falta", "Fuera de juego", "Saque de esquina"],
+    "answer": 0,
+    "explanation": "Este es un ejercicio de emparejamiento. Relaciona cada concepto con su significado.",
+    "difficulty": 1
+  },
+  {
+    "id": "potrero_u1_l5_q2",
+    "level": 1,
+    "type": "fill_blank",
+    "question": "Completa: El árbitro muestra tarjeta ____ por una falta grave.",
+    "options": ["amarilla", "roja", "azul", "verde"],
+    "answer": 1,
+    "explanation": "La tarjeta roja significa expulsión del partido por falta grave o dos amarillas.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l1_q1",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué formación tiene 4 defensas, 4 centrocampistas y 2 delanteros?",
+    "options": ["4-3-3", "4-4-2", "3-5-2", "4-2-3-1"],
+    "answer": 1,
+    "explanation": "El 4-4-2 tiene 4 defensas, 4 mediocampistas y 2 delanteros.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l1_q2",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la función principal del delantero centro?",
+    "options": "Defender el arco", "Anotar goles", "Cobrar faltas", "Dirigir la defensa"],
+    "answer": 1,
+    "explanation": "El delantero centro es el principal anotador de goles del equipo.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l1_q3",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Cuántos jugadores forman una línea defensiva en el 4-3-3?",
+    "options": ["3", "4", "5", "2"],
+    "answer": 1,
+    "explanation": "En el 4-3-3 hay 4 defensas, 3 centrocampistas y 3 delanteros.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l2_q1",
+    "level": 2,
+    "type": "true_false",
+    "question": "El fuera de juego se sanciona solo si el jugador interviene en el juego.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 0,
+    "explanation": "Solo se sanciona fuera de juego si el jugador en posición adelantada participa activamente.",
+    "difficulty": 2
+  },
+  {
+    "id": "barrio_u2_l2_q2",
+    "level": 2,
+    "type": "true_false",
+    "question": "El portero puede marcar un gol.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 0,
+    "explanation": "Sí, el portero puede anotar, incluso desde su propia área con un golpeo largo.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l3_q1",
+    "level": 2,
+    "type": "field_position",
+    "question": "¿Dónde se posiciona el mediocentro defensivo?",
+    "options": ["Delante de la defensa", "Arco rival", "Banda izquierda", "Área rival"],
+    "answer": 0,
+    "explanation": "El pivote o mediocentro defensivo se coloca justo delante de la línea de defensas.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l3_q2",
+    "level": 2,
+    "type": "field_position",
+    "question": "¿Dónde juega el extremo?",
+    "options": ["Banda", "Arco", "Centro del área", "Portería"],
+    "answer": 0,
+    "explanation": "El extremo juega por las bandas, cerca de la línea de cal.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l4_q1",
+    "level": 2,
+    "type": "order_play",
+    "question": "Ordena los pasos de un penalti:",
+    "options": ["El arquero se coloca en la línea de gol", "El balón se coloca en el punto penal", "El pateador ejecuta el tiro", "Todos los jugadores quedan fuera del área"],
+    "answer": 0,
+    "explanation": "Primero se coloca el balón, se ubican los jugadores, el arquero se prepara y se ejecuta el tiro.",
+    "difficulty": 2
+  },
+  {
+    "id": "barrio_u2_l5_q1",
+    "level": 2,
+    "type": "match_pairs",
+    "question": "Une cada posición con su zona del campo:",
+    "options": ["Portero", "Lateral", "Delantero", "Mediocampista"],
+    "answer": 0,
+    "explanation": "Emparela cada posición con la zona donde actúa principalmente.",
+    "difficulty": 1
+  },
+  {
+    "id": "barrio_u2_l6_q1",
+    "level": 2,
+    "type": "formation",
+    "question": "¿Qué formación se muestra con 4 defensas, 3 centrocampistas y 3 delanteros?",
+    "options": ["4-4-2", "4-3-3", "3-5-2", "5-3-2"],
+    "answer": 1,
+    "explanation": "La formación 4-3-3 tiene 4 defensas, 3 mediocampistas y 3 delanteros.",
+    "difficulty": 1
+  },
+  {
+    "id": "amateur_u3_l1_q1",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cuántos puntos se otorgan por ganar un partido en liga?",
+    "options": ["1", "2", "3", "0"],
+    "answer": 2,
+    "explanation": "Victoria = 3 puntos, empate = 1 punto, derrota = 0 puntos.",
+    "difficulty": 1
+  },
+  {
+    "id": "amateur_u3_l1_q2",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué es una copa en formato de torneo?",
+    "options": ["Todos juegan contra todos", "Eliminación directa tras perder", "Solo hay un partido", "No hay campeón"],
+    "answer": 1,
+    "explanation": "En una copa, al perder un partido quedas eliminado del torneo.",
+    "difficulty": 1
+  },
+  {
+    "id": "amateur_u3_l1_q3",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué significa VAR?",
+    "options": "Video Assistant Referee", "Very Athletic Referee", "Virtual Assistant Referee", "Video Aerial Review"],
+    "answer": 0,
+    "explanation": "VAR son las siglas de Video Assistant Referee (Árbitro Asistente de Video).",
+    "difficulty": 1
+  },
+  {
+    "id": "amateur_u3_l2_q1",
+    "level": 3,
+    "type": "true_false",
+    "question": "La mano involuntaria dentro del área siempre es penal.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 1,
+    "explanation": "No toda mano es penal; depende de si fue deliberada, la posición del brazo y la proximidad.",
+    "difficulty": 3
+  },
+  {
+    "id": "amateur_u3_l2_q2",
+    "level": 3,
+    "type": "true_false",
+    "question": "La ventaja permite que el juego continúe tras una falta si beneficia al atacante.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 0,
+    "explanation": "El árbitro puede dejar seguir la jugada si el equipo afectado se beneficia más continuando.",
+    "difficulty": 2
+  },
+  {
+    "id": "amateur_u3_l3_q1",
+    "level": 3,
+    "type": "field_position",
+    "question": "¿Desde dónde se ejecuta un tiro libre?",
+    "options": ["Desde donde ocurrió la falta", "Desde el centro", "Desde el área", "Desde la banda"],
+    "answer": 0,
+    "explanation": "El tiro libre se ejecuta desde el lugar exacto donde se cometió la infracción.",
+    "difficulty": 1
+  },
+  {
+    "id": "amateur_u3_l4_q1",
+    "level": 3,
+    "type": "order_play",
+    "question": "Ordena cómo se resuelve un empate en liga por puntos:",
+    "options": ["Gol diferencia", "Goles a favor", "Resultado entre los equipos empatados", "Sorteo"],
+    "answer": 0,
+    "explanation": "Generalmente se usa primero el gol diferencia para desempatar en ligas.",
+    "difficulty": 3
+  },
+  {
+    "id": "amateur_u3_l5_q1",
+    "level": 3,
+    "type": "match_pairs",
+    "question": "Une cada regla con su aplicación:",
+    "options": ["Fuera de juego", "Penal", "Saque de meta", "Tarjeta amarilla"],
+    "answer": 0,
+    "explanation": "Relaciona cada situación de juego con su regla correspondiente.",
+    "difficulty": 2
+  },
+  {
+    "id": "pro_u4_l1_q1",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué táctica se caracteriza por pases cortos y posesión constante?",
+    "options": ["Catenaccio", "Tiki-taka", "Contraataque", "Presión alta"],
+    "answer": 1,
+    "explanation": "El tiki-taka se basa en posesión, pases cortos y movimiento constante del balón.",
+    "difficulty": 2
+  },
+  {
+    "id": "pro_u4_l1_q2",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué es el xG en estadísticas de fútbol?",
+    "options": "Goles esperados", "Extra minutos de juego", "Equipo ganador", "Xavage gol"],
+    "answer": 0,
+    "explanation": "xG (Expected Goals) mide la probabilidad de que una ocasión termine en gol.",
+    "difficulty": 2
+  },
+  {
+    "id": "pro_u4_l1_q3",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué es un 'falso 9'?",
+    "options": ["Un delantero que retrocede", "Un portero adelantado", "Un defensa sin marca", "Un árbitro estricto"],
+    "answer": 0,
+    "explanation": "El falso 9 es un delantero que se retira hacia el mediocampo para crear espacios.",
+    "difficulty": 3
+  },
+  {
+    "id": "pro_u4_l2_q1",
+    "level": 4,
+    "type": "true_false",
+    "question": "La presión alta consiste en robar el balón cerca del arco rival.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 0,
+    "explanation": "La presión alta busca recuperar el balón en campo contrario, cerca del arco rival.",
+    "difficulty": 2
+  },
+  {
+    "id": "pro_u4_l2_q2",
+    "level": 4,
+    "type": "true_false",
+    "question": "El catenaccio prioriza el ataque sobre la defensa.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 1,
+    "explanation": "El catenaccio es un sistema defensivo italiano que prioriza cerrar el arco.",
+    "difficulty": 2
+  },
+  {
+    "id": "pro_u4_l3_q1",
+    "level": 4,
+    "type": "tactical_scenario",
+    "question": "El rival ataca por la banda izquierda con un extremo rápido. ¿Qué debes hacer?",
+    "options": ["Cerrar la banda con el lateral y dar apoyo", "Dejar libre la banda", "Subir todos al ataque", "Retirar al portero"],
+    "answer": 0,
+    "explanation": "El lateral debe cerrar la banda y recibir apoyo del central o mediocampista para evitar el centro.",
+    "difficulty": 3
+  },
+  {
+    "id": "pro_u4_l4_q1",
+    "level": 4,
+    "type": "order_play",
+    "question": "Ordena una jugada de presión alta:",
+    "options": ["El delantero cierra la salida de balón", "El equipo se desplaza en bloque hacia adelante", "Se roba el balón en campo rival", "Se define rápido al arco"],
+    "answer": 0,
+    "explanation": "Primero cierran las opciones de pase, el equipo sube en bloque, se roba y se define.",
+    "difficulty": 3
+  },
+  {
+    "id": "pro_u4_l5_q1",
+    "level": 4,
+    "type": "match_pairs",
+    "question": "Une cada rol con su función principal:",
+    "options": ["Pivote", "Extremo", "Falso 9", "Lateral"],
+    "answer": 0,
+    "explanation": "Relaciona cada rol táctico con su responsabilidad en el campo.",
+    "difficulty": 2
+  },
+  {
+    "id": "champions_u5_l1_q1",
+    "level": 5,
+    "type": "multiple_choice",
+    "question": "¿Cuál es el torneo de clubes más importante de Europa?",
+    "options": ["Liga Europa", "Champions League", "Copa del Rey", "Supercopa"],
+    "answer": 1,
+    "explanation": "La UEFA Champions League es el torneo de clubes más prestigioso de Europa.",
+    "difficulty": 1
+  },
+  {
+    "id": "champions_u5_l1_q2",
+    "level": 5,
+    "type": "multiple_choice",
+    "question": "¿Con qué frecuencia se celebra la Copa Mundial de Fútbol?",
+    "options": ["Cada 2 años", "Cada 3 años", "Cada 4 años", "Cada 5 años"],
+    "answer": 2,
+    "explanation": "El Mundial de selecciones se celebra cada cuatro años.",
+    "difficulty": 1
+  },
+  {
+    "id": "champions_u5_l1_q3",
+    "level": 5,
+    "type": "multiple_choice",
+    "question": "¿Qué es el 'fair play financiero'?",
+    "options": "Reglas de gasto de los clubes", "Una tarjeta especial", "Un tipo de gol", "Un sistema de audio"],
+    "answer": 0,
+    "explanation": "Es un conjunto de normas que evitan que los clubes gasten más de lo que ingresan.",
+    "difficulty": 2
+  },
+  {
+    "id": "champions_u5_l2_q1",
+    "level": 5,
+    "type": "true_false",
+    "question": "El Balón de Oro se otorga al mejor jugador del año.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 0,
+    "explanation": "El Balón de Oro premia al mejor futbolista del mundo en cada temporada.",
+    "difficulty": 1
+  },
+  {
+    "id": "champions_u5_l2_q2",
+    "level": 5,
+    "type": "true_false",
+    "question": "En el mercado de fichajes, los clubes pueden contratar jugadores en cualquier momento del año.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 1,
+    "explanation": "Los fichajes solo se pueden hacer durante los períodos oficiales de mercado de pases.",
+    "difficulty": 2
+  },
+  {
+    "id": "champions_u5_l3_q1",
+    "level": 5,
+    "type": "tactical_scenario",
+    "question": "Tu equipo va ganando por un gol y faltan 10 minutos. ¿Qué conviene hacer?",
+    "options": ["Mantener la posesión y consumir tiempo", "Atacar sin parar", "Retirar al portero", "Dejar que el rival tenga el balón"],
+    "answer": 0,
+    "explanation": "Con ventaja mínima, conviene controlar el balón, consumir tiempo y evitar riesgos innecesarios.",
+    "difficulty": 3
+  },
+  {
+    "id": "champions_u5_l4_q1",
+    "level": 5,
+    "type": "order_play",
+    "question": "Ordena los pasos de un fichaje de jugador:",
+    "options": ["Acuerdo entre clubes", "Exámenes médicos", "Firma del contrato", "Presentación oficial"],
+    "answer": 0,
+    "explanation": "Primero se acuerda el traspaso, pasan reconocimientos médicos, firman y se presenta al jugador.",
+    "difficulty": 2
+  },
+  {
+    "id": "champions_u5_l5_q1",
+    "level": 5,
+    "type": "match_pairs",
+    "question": "Une cada competición con su ámbito:",
+    "options": ["Mundial", "Champions", "Copa América", "Liga local"],
+    "answer": 0,
+    "explanation": "Relaciona cada torneo con el ámbito en el que se disputa.",
+    "difficulty": 2
+  },
+  {
+    "id": "leyenda_u6_l1_q1",
+    "level": 6,
+    "type": "multiple_choice",
+    "question": "¿Qué significa 'leer el partido' en análisis táctico?",
+    "options": ["Saber el marcador", "Identificar patrones y decisiones del rival", "Contar los espectadores", "Mirar el reloj"],
+    "answer": 1,
+    "explanation": "Leer el partido es entender las intenciones, patrones y decisiones del equipo contrario en tiempo real.",
+    "difficulty": 3
+  },
+  {
+    "id": "leyenda_u6_l1_q2",
+    "level": 6,
+    "type": "multiple_choice",
+    "question": "¿Qué es un 'bloque bajo'?",
+    "options": ["Defender cerca del propio arco", "Presionar en campo rival", "Atacar con muchos jugadores", "Dejar la portería vacía"],
+    "answer": 0,
+    "explanation": "El bloque bajo es un sistema defensivo que se replega cerca de su propia área.",
+    "difficulty": 2
+  },
+  {
+    "id": "leyenda_u6_l2_q1",
+    "level": 6,
+    "type": "tactical_scenario",
+    "question": "El rival juega con dos delanteros muy móviles que intercambian posiciones. ¿Cómo defender?",
+    "options": ["Los centrales se cruzan y se comunican constantemente", "Un solo central marca a ambos", "Los delanteros defienden solos", "El portero sale a marcar"],
+    "answer": 0,
+    "explanation": "Ante delanteros intercambiables, los centrales deben comunicarse y cubrirse mutuamente.",
+    "difficulty": 4
+  },
+  {
+    "id": "leyenda_u6_l3_q1",
+    "level": 6,
+    "type": "timed",
+    "question": "¿Cuántos cambios se permiten en un partido profesional?",
+    "options": ["3", "5", "7", "11"],
+    "answer": 1,
+    "explanation": "En la mayoría de ligas profesionales se permiten 5 cambios por equipo.",
+    "difficulty": 2
+  },
+  {
+    "id": "leyenda_u6_l4_q1",
+    "level": 6,
+    "type": "referee_decision",
+    "question": "Un jugador detiene una clara ocasión de gol con una falta táctica. ¿Qué sanción corresponde?",
+    "options": ["Tarjeta amarilla", "Tarjeta roja", "Solo advertencia", "Saque de banda"],
+    "answer": 1,
+    "explanation": "Detener una clara ocasión de gol con falta merece tarjeta roja por falta grave de juego.",
+    "difficulty": 3
+  },
+  {
+    "id": "examen_nivel1_q1",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Quién es el único jugador que puede usar las manos dentro del área?",
+    "options": ["Cualquier defensa", "El portero", "El delantero", "El árbitro"],
+    "answer": 1,
+    "explanation": "Solo el portero puede tocar el balón con las manos, y solo dentro de su área penal.",
+    "difficulty": 1
+  },
+  {
+    "id": "examen_nivel1_q2",
+    "level": 1,
+    "type": "true_false",
+    "question": "Un partido tiene tres tiempos de 30 minutos.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 1,
+    "explanation": "Un partido tiene dos tiempos de 45 minutos, no tres de 30.",
+    "difficulty": 1
+  },
+  {
+    "id": "examen_nivel1_q3",
+    "level": 1,
+    "type": "field_position",
+    "question": "¿Desde dónde se ejecuta el saque de inicio?",
+    "options": ["Desde el punto central", "Desde el área", "Desde la banda", "Desde el arco"],
+    "answer": 0,
+    "explanation": "El saque de inicio se ejecuta desde el punto central del campo.",
+    "difficulty": 1
+  },
+  {
+    "id": "examen_nivel2_q1",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿En qué situación se sanciona fuera de juego?",
+    "options": ["Cuando el atacante recibe el balón en posición adelantada y participa", "Cuando el portero sale del área", "Cuando hay un saque de banda", "Cuando hay un gol"],
+    "answer": 0,
+    "explanation": "Fuera de juego ocurre cuando un atacante está en posición adelantada e interviene en el juego.",
+    "difficulty": 2
+  },
+  {
+    "id": "examen_nivel2_q2",
+    "level": 2,
+    "type": "formation",
+    "question": "¿Qué formación usa 5 defensas, 3 centrocampistas y 2 delanteros?",
+    "options": ["4-4-2", "4-3-3", "5-3-2", "3-5-2"],
+    "answer": 2,
+    "explanation": "La formación 5-3-2 tiene cinco defensas, tres mediocampistas y dos delanteros.",
+    "difficulty": 1
+  },
+  {
+    "id": "examen_nivel3_q1",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cuándo se ejecuta un saque de esquina?",
+    "options": ["Cuando el balón sale por la banda", "Cuando el defensor toca el balón por encima de su propia línea de gol", "Cuando hay un gol", "Cuando el árbitro lo decide"],
+    "answer": 1,
+    "explanation": "Corner cuando el último en tocar el balón antes de salir por la línea de gol es un defensor.",
+    "difficulty": 1
+  },
+  {
+    "id": "examen_nivel3_q2",
+    "level": 3,
+    "type": "true_false",
+    "question": "El VAR puede revisar todas las decisiones del árbitro.",
+    "options": ["Verdadero", "Falso"],
+    "answer": 1,
+    "explanation": "El VAR solo interviene en goles, penales, tarjetas rojas y errores de identidad.",
+    "difficulty": 2
+  },
+  {
+    "id": "examen_nivel4_q1",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué rol táctico se encarga de distribuir el juego desde la zona defensiva?",
+    "options": ["Extremo", "Pivote", "Delantero", "Lateral"],
+    "answer": 1,
+    "explanation": "El pivote o medio defensivo distribuye el balón y protege la defensa.",
+    "difficulty": 2
+  },
+  {
+    "id": "examen_nivel4_q2",
+    "level": 4,
+    "type": "tactical_scenario",
+    "question": "El rival hace presión alta y roba el balón cerca de tu área. ¿Qué hacer?",
+    "options": ["Sacar rápido y largo hacia un compañero", "Regalar el balón", "Detener el juego con las manos", "Seguir pasando corto bajo presión"],
+    "answer": 0,
+    "explanation": "Ante presión alta, lo más seguro es despejar o lanzar largo hacia un compañero libre.",
+    "difficulty": 3
+  },
+  {
+    "id": "examen_nivel5_q1",
+    "level": 5,
+    "type": "multiple_choice",
+    "question": "¿Qué competición enfrenta a los campeones de cada liga europea?",
+    "options": ["Champions League", "Libertadores", "Mundial de Clubes", "Copa local"],
+    "answer": 0,
+    "explanation": "La Champions League reúne a los campeones de las ligas europeas.",
+    "difficulty": 1
+  },
+  {
+    "id": "examen_nivel5_q2",
+    "level": 5,
+    "type": "referee_decision",
+    "question": "Un jugador entra con los tacos por encima y lastima a un rival. ¿Qué tarjeta?",
+    "options": ["Amarilla", "Roja", "Ninguna", "Azul"],
+    "answer": 1,
+    "explanation": "Entrada peligrosa con los tacos arriba es falta grave y merece tarjeta roja directa.",
+    "difficulty": 2
+  },
+  {
+    "id": "examen_nivel6_q1",
+    "level": 6,
+    "type": "multiple_choice",
+    "question": "¿Qué es el 'contraataque'?",
+    "options": ["Defender cerca del arco", "Atacar rápido tras recuperar el balón", "Pasear el balón por la defensa", "Hacer tiempo"],
+    "answer": 1,
+    "explanation": "El contraataque es atacar con velocidad justo después de recuperar la posesión.",
+    "difficulty": 2
+  },
+  {
+    "id": "examen_nivel6_q2",
+    "level": 6,
+    "type": "timed",
+    "question": "¿Cuántos jugadores forman un equipo en el fútbol sala?",
+    "options": ["5", "7", "11", "6"],
+    "answer": 0,
+    "explanation": "El fútbol sala se juega con 5 jugadores por equipo, incluido el portero.",
+    "difficulty": 1
+  },
+  {
+    "id": "examen_nivel6_q3",
+    "level": 6,
+    "type": "referee_decision",
+    "question": "El balón toca el brazo de un atacante justo antes de anotar. ¿Es gol válido?",
+    "options": ["Sí, siempre", "No, es mano y se anula", "Solo si fue a propósito", "Depende del árbitro"],
+    "answer": 1,
+    "explanation": "Si un atacante toca el balón con el brazo/mano y anula inmediatamente, el gol no vale.",
+    "difficulty": 3
+  }
+]
