@@ -11,6 +11,10 @@ import '../screens/perfil_screen.dart';
 import '../screens/splash_screen.dart';
 import '../screens/vestuario_screen.dart';
 
+void main() {
+  runApp(const GApp());
+}
+
 class GApp extends StatefulWidget {
   const GApp({super.key});
 
